@@ -1,4 +1,4 @@
-package com.abunko.wardeployment;
+package com.abunko.services.saifer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

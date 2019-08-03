@@ -1,4 +1,4 @@
-package com.abunko.wardeployment;
+package com.abunko.services.saifer;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

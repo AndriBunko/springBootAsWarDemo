@@ -1,6 +1,4 @@
-package com.abunko.wardeployment.model.saifer.response;
-
-import com.fasterxml.jackson.annotation.JsonProperty;
+package com.abunko.services.saifer.model.saifer.response;
 
 public class SaiferCreateSesionResponse {
     private String message;

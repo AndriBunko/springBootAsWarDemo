@@ -1,6 +1,9 @@
-package com.abunko.wardeployment.model.saifer.request;
+package com.abunko.services.saifer.model.saifer.request;
 
-public class SesionParamsRequest {
+import com.fasterxml.jackson.annotation.JsonInclude;
+
+@JsonInclude(JsonInclude.Include.NON_NULL)
+public class SesionParams {
     private String signatureType = "detached";
     private String embedSignatureTs = "false";
     private String embedDataTs = "false";
