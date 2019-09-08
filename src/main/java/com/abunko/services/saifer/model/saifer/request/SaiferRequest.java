@@ -1,10 +1,10 @@
 package com.abunko.services.saifer.model.saifer.request;
 
 public class SaiferRequest {
-    private String dataBase64;
-    private String keyStoreBase64;
-    private String keyStorePass;
-    private SesionParams sesionParams;
+        private String dataBase64;
+        private String keyStoreBase64;
+        private String keyStorePass;
+        private SesionParams sessionParams;
 
     public String getDataBase64() {
         return dataBase64;
@@ -30,12 +30,12 @@ public class SaiferRequest {
         this.keyStorePass = keyStorePass;
     }
 
-    public SesionParams getSesionParams() {
-        return sesionParams;
+    public SesionParams getSessionParams() {
+        return sessionParams;
     }
 
-    public void setSesionParams(SesionParams sesionParams) {
-        this.sesionParams = sesionParams;
+    public void setSessionParams(SesionParams sessionParams) {
+        this.sessionParams = sessionParams;
     }
 
     @Override
@@ -44,7 +44,7 @@ public class SaiferRequest {
                 "dataBase64='" + dataBase64 + '\'' +
                 ", keyStoreBase64='" + keyStoreBase64 + '\'' +
                 ", keyStorePass='" + keyStorePass + '\'' +
-                ", sesionParams=" + sesionParams +
+                ", sessionParams=" + sessionParams +
                 '}';
     }
 }
